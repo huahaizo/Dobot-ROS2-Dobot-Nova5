@@ -18,7 +18,7 @@
 
 3. **官方 SDK 安装**：
    请参考官方文档完成基础设置：
-   - 文件路径：`dobot_ws/src/DOBOT_6Axis_ROS2_V3/README.md`
+   - 文件路径：`src/DOBOT_6Axis_ROS2_V3/README.md`
    - 主要步骤：
      - 网络配置和连接测试
      - 源码编译和环境变量设置
