@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/LimZ.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct LimZ_Request {
+      int32 value;
+    };
+    struct LimZ_Response {
+      int32 res;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/ToolDO.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct ToolDO_Request {
+      int32 index;
+
+      int32 status;
+    };
+    struct ToolDO_Response {
+      int32 res;
+    };
+  };
+};

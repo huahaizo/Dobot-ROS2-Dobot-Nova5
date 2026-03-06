@@ -1,0 +1,353 @@
+[0.342s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'hand_tracking']
+[0.342s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['hand_tracking'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x715ecd44e410>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x715ecd44ded0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x715ecd44ded0>>)
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.661s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/huahai/dobot_ws'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'ignore'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'ignore_ament_install'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['colcon_pkg']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'colcon_pkg'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['colcon_meta']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'colcon_meta'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['ros']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'ros'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['cmake', 'python']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'cmake'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'python'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extensions ['python_setup_py']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3) by extension 'python_setup_py'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'ignore'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'ignore_ament_install'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extensions ['colcon_pkg']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'colcon_pkg'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extensions ['colcon_meta']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'colcon_meta'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extensions ['ros']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr10_moveit) by extension 'ros'
+[0.693s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr10_moveit' with type 'ros.ament_cmake' and name 'cr10_moveit'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'ignore_ament_install'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extensions ['colcon_pkg']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'colcon_pkg'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extensions ['colcon_meta']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'colcon_meta'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extensions ['ros']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr12_moveit) by extension 'ros'
+[0.695s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr12_moveit' with type 'ros.ament_cmake' and name 'cr12_moveit'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extensions ['colcon_meta']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'colcon_meta'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr16_moveit) by extension 'ros'
+[0.697s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr16_moveit' with type 'ros.ament_cmake' and name 'cr16_moveit'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'colcon_meta'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr3_moveit) by extension 'ros'
+[0.698s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr3_moveit' with type 'ros.ament_cmake' and name 'cr3_moveit'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'ignore_ament_install'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extensions ['colcon_pkg']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'colcon_pkg'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extensions ['colcon_meta']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'colcon_meta'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extensions ['ros']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr5_moveit) by extension 'ros'
+[0.700s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr5_moveit' with type 'ros.ament_cmake' and name 'cr5_moveit'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'ignore'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'ignore_ament_install'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extensions ['colcon_pkg']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'colcon_pkg'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extensions ['colcon_meta']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'colcon_meta'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extensions ['ros']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cr7_moveit) by extension 'ros'
+[0.702s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cr7_moveit' with type 'ros.ament_cmake' and name 'cr7_moveit'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'ignore'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'ignore_ament_install'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extensions ['colcon_pkg']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'colcon_pkg'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extensions ['colcon_meta']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'colcon_meta'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extensions ['ros']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/cra_description) by extension 'ros'
+[0.703s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/cra_description' with type 'ros.ament_cmake' and name 'cra_description'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'ignore_ament_install'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extensions ['colcon_pkg']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'colcon_pkg'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extensions ['colcon_meta']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'colcon_meta'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extensions ['ros']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3) by extension 'ros'
+[0.705s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3' with type 'ros.ament_python' and name 'dobot_bringup_v3'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extensions ['colcon_pkg']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'colcon_pkg'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_demo) by extension 'ros'
+[0.706s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_demo' with type 'ros.ament_python' and name 'dobot_demo'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extensions ['colcon_pkg']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'colcon_pkg'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extensions ['colcon_meta']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'colcon_meta'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extensions ['ros']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_gazebo) by extension 'ros'
+[0.708s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_gazebo' with type 'ros.ament_cmake' and name 'dobot_gazebo'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'ignore_ament_install'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'colcon_meta'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extensions ['ros']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_moveit) by extension 'ros'
+[0.710s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_moveit' with type 'ros.ament_python' and name 'dobot_moveit'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3) by extension 'ros'
+[0.712s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3' with type 'ros.ament_cmake' and name 'dobot_msgs_v3'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'ignore'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'ignore_ament_install'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extensions ['colcon_pkg']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'colcon_pkg'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extensions ['colcon_meta']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'colcon_meta'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extensions ['ros']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/dobot_rviz) by extension 'ros'
+[0.714s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/dobot_rviz' with type 'ros.ament_cmake' and name 'dobot_rviz'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'ignore'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'ignore_ament_install'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['colcon_pkg']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'colcon_pkg'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['colcon_meta']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'colcon_meta'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['ros']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'ros'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['cmake', 'python']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'cmake'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'python'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extensions ['python_setup_py']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/image) by extension 'python_setup_py'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'ignore_ament_install'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extensions ['colcon_pkg']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'colcon_pkg'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'colcon_meta'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extensions ['ros']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova2_moveit) by extension 'ros'
+[0.720s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/nova2_moveit' with type 'ros.ament_cmake' and name 'nova2_moveit'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'ignore'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'colcon_meta'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extensions ['ros']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/nova5_moveit) by extension 'ros'
+[0.735s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/nova5_moveit' with type 'ros.ament_cmake' and name 'nova5_moveit'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'colcon_meta'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extensions ['ros']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/DOBOT_6Axis_ROS2_V3/servo_action) by extension 'ros'
+[0.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DOBOT_6Axis_ROS2_V3/servo_action' with type 'ros.ament_python' and name 'servo_action'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracking) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracking) by extension 'ignore_ament_install'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracking) by extensions ['colcon_pkg']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracking) by extension 'colcon_pkg'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracking) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracking) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracking) by extensions ['ros']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_tracking) by extension 'ros'
+[0.738s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hand_tracking' with type 'ros.ament_python' and name 'hand_tracking'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/qt_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/qt_robot_control) by extension 'ignore'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/qt_robot_control) by extension 'ignore_ament_install'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/qt_robot_control) by extensions ['colcon_pkg']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/qt_robot_control) by extension 'colcon_pkg'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/qt_robot_control) by extensions ['colcon_meta']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/qt_robot_control) by extension 'colcon_meta'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/qt_robot_control) by extensions ['ros']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/qt_robot_control) by extension 'ros'
+[0.739s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qt_robot_control' with type 'ros.ament_python' and name 'qt_robot_control'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_api) by extensions ['ignore', 'ignore_ament_install']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_api) by extension 'ignore'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_api) by extension 'ignore_ament_install'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_api) by extensions ['colcon_pkg']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_api) by extension 'colcon_pkg'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_api) by extensions ['colcon_meta']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_api) by extension 'colcon_meta'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_api) by extensions ['ros']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_api) by extension 'ros'
+[0.740s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control_api' with type 'ros.ament_python' and name 'robot_control_api'
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cra_description' in 'src/DOBOT_6Axis_ROS2_V3/cra_description'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dobot_demo' in 'src/DOBOT_6Axis_ROS2_V3/dobot_demo'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dobot_moveit' in 'src/DOBOT_6Axis_ROS2_V3/dobot_moveit'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dobot_msgs_v3' in 'src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dobot_rviz' in 'src/DOBOT_6Axis_ROS2_V3/dobot_rviz'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'qt_robot_control' in 'src/qt_robot_control'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'servo_action' in 'src/DOBOT_6Axis_ROS2_V3/servo_action'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cr10_moveit' in 'src/DOBOT_6Axis_ROS2_V3/cr10_moveit'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cr12_moveit' in 'src/DOBOT_6Axis_ROS2_V3/cr12_moveit'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cr16_moveit' in 'src/DOBOT_6Axis_ROS2_V3/cr16_moveit'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cr3_moveit' in 'src/DOBOT_6Axis_ROS2_V3/cr3_moveit'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cr5_moveit' in 'src/DOBOT_6Axis_ROS2_V3/cr5_moveit'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cr7_moveit' in 'src/DOBOT_6Axis_ROS2_V3/cr7_moveit'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dobot_bringup_v3' in 'src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dobot_gazebo' in 'src/DOBOT_6Axis_ROS2_V3/dobot_gazebo'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nova2_moveit' in 'src/DOBOT_6Axis_ROS2_V3/nova2_moveit'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nova5_moveit' in 'src/DOBOT_6Axis_ROS2_V3/nova5_moveit'
+[0.779s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_control_api' in 'src/robot_control_api'
+[0.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.799s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/huahai/dobot_ws/install
+[0.815s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 362 installed packages in /opt/ros/humble
+[0.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.106s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking' build argument 'cmake_args' from command line to 'None'
+[1.107s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking' build argument 'cmake_target' from command line to 'None'
+[1.107s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.107s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[1.107s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[1.107s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[1.107s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[1.107s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[1.107s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.107s] DEBUG:colcon.colcon_core.verb:Building package 'hand_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huahai/dobot_ws/build/hand_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huahai/dobot_ws/install/hand_tracking', 'merge_install': False, 'path': '/home/huahai/dobot_ws/src/hand_tracking', 'symlink_install': False, 'test_result_base': None}
+[1.107s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.122s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.122s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/huahai/dobot_ws/src/hand_tracking' with build type 'ament_python'
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_tracking', 'ament_prefix_path')
+[1.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/hook/ament_prefix_path.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/hook/ament_prefix_path.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/hook/ament_prefix_path.sh'
+[1.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.770s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/huahai/dobot_ws/src/hand_tracking'
+[1.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huahai/dobot_ws/src/hand_tracking': PYTHONPATH=/home/huahai/dobot_ws/build/hand_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_tracking build --build-base /home/huahai/dobot_ws/build/hand_tracking/build install --record /home/huahai/dobot_ws/build/hand_tracking/install.log --single-version-externally-managed install_data
+[4.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huahai/dobot_ws/src/hand_tracking' returned '0': PYTHONPATH=/home/huahai/dobot_ws/build/hand_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_tracking build --build-base /home/huahai/dobot_ws/build/hand_tracking/build install --record /home/huahai/dobot_ws/build/hand_tracking/install.log --single-version-externally-managed install_data
+[4.261s] Level 1:colcon.colcon_core.environment:checking '/home/huahai/dobot_ws/install/hand_tracking' for CMake module files
+[4.263s] Level 1:colcon.colcon_core.environment:checking '/home/huahai/dobot_ws/install/hand_tracking' for CMake config files
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/huahai/dobot_ws/install/hand_tracking/lib'
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/huahai/dobot_ws/install/hand_tracking/bin'
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/huahai/dobot_ws/install/hand_tracking/lib/pkgconfig/hand_tracking.pc'
+[4.266s] Level 1:colcon.colcon_core.environment:checking '/home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages'
+[4.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_tracking', 'pythonpath')
+[4.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/hook/pythonpath.ps1'
+[4.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/hook/pythonpath.dsv'
+[4.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/hook/pythonpath.sh'
+[4.270s] Level 1:colcon.colcon_core.environment:checking '/home/huahai/dobot_ws/install/hand_tracking/bin'
+[4.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand_tracking)
+[4.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/package.ps1'
+[4.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/package.dsv'
+[4.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/package.sh'
+[4.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/package.bash'
+[4.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/huahai/dobot_ws/install/hand_tracking/share/hand_tracking/package.zsh'
+[4.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huahai/dobot_ws/install/hand_tracking/share/colcon-core/packages/hand_tracking)
+[4.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.279s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.309s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.380s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huahai/dobot_ws/install/local_setup.ps1'
+[4.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huahai/dobot_ws/install/_local_setup_util_ps1.py'
+[4.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huahai/dobot_ws/install/setup.ps1'
+[4.388s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huahai/dobot_ws/install/local_setup.sh'
+[4.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huahai/dobot_ws/install/_local_setup_util_sh.py'
+[4.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huahai/dobot_ws/install/setup.sh'
+[4.397s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huahai/dobot_ws/install/local_setup.bash'
+[4.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huahai/dobot_ws/install/setup.bash'
+[4.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huahai/dobot_ws/install/local_setup.zsh'
+[4.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huahai/dobot_ws/install/setup.zsh'

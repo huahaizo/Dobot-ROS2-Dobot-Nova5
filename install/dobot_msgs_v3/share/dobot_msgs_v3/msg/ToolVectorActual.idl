@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dobot_msgs_v3/msg/ToolVectorActual.msg
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module msg {
+    struct ToolVectorActual {
+      double x;
+
+      double y;
+
+      double z;
+
+      double rx;
+
+      double ry;
+
+      double rz;
+    };
+  };
+};

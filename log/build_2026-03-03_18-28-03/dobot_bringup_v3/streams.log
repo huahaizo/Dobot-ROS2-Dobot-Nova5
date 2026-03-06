@@ -1,0 +1,46 @@
+[0.370s] Invoking command in '/home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3': AMENT_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3 LD_LIBRARY_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahai/dobot_ws/build/dobot_bringup_v3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages:/home/huahai/dobot_ws/install/dobot_msgs_v3/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup_v3 build --build-base /home/huahai/dobot_ws/build/dobot_bringup_v3/build install --record /home/huahai/dobot_ws/build/dobot_bringup_v3/install.log --single-version-externally-managed install_data
+[0.512s] running egg_info
+[0.513s] creating ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info
+[0.513s] writing ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/PKG-INFO
+[0.513s] writing dependency_links to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/dependency_links.txt
+[0.514s] writing entry points to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/entry_points.txt
+[0.514s] writing requirements to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/requires.txt
+[0.514s] writing top-level names to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/top_level.txt
+[0.514s] writing manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+[0.515s] reading manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+[0.516s] writing manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+[0.516s] running build
+[0.516s] running build_py
+[0.516s] creating /home/huahai/dobot_ws/build/dobot_bringup_v3/build
+[0.516s] creating /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib
+[0.517s] creating /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.517s] copying dobot_bringup_v3/__init__.py -> /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.517s] copying dobot_bringup_v3/dobot_bringup.py -> /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.517s] copying dobot_bringup_v3/feedback.py -> /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.518s] copying dobot_bringup_v3/dobot_api.py -> /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+[0.518s] running install
+[0.518s] running install_lib
+[0.518s] creating /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.519s] copying /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/__init__.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.519s] copying /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/dobot_bringup.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.519s] copying /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/feedback.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.519s] copying /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/dobot_api.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+[0.520s] byte-compiling /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/__init__.py to __init__.cpython-310.pyc
+[0.520s] byte-compiling /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/dobot_bringup.py to dobot_bringup.cpython-310.pyc
+[0.523s] byte-compiling /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/feedback.py to feedback.cpython-310.pyc
+[0.524s] byte-compiling /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/dobot_api.py to dobot_api.cpython-310.pyc
+[0.526s] running install_data
+[0.526s] creating /home/huahai/dobot_ws/install/dobot_bringup_v3/share/ament_index
+[0.526s] creating /home/huahai/dobot_ws/install/dobot_bringup_v3/share/ament_index/resource_index
+[0.526s] creating /home/huahai/dobot_ws/install/dobot_bringup_v3/share/ament_index/resource_index/packages
+[0.526s] copying resource/dobot_bringup_v3 -> /home/huahai/dobot_ws/install/dobot_bringup_v3/share/ament_index/resource_index/packages
+[0.526s] copying package.xml -> /home/huahai/dobot_ws/install/dobot_bringup_v3/share/dobot_bringup_v3
+[0.526s] creating /home/huahai/dobot_ws/install/dobot_bringup_v3/share/dobot_bringup_v3/launch
+[0.526s] copying launch/dobot_bringup_ros2.launch.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/share/dobot_bringup_v3/launch
+[0.526s] running install_egg_info
+[0.527s] Copying ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info to /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3-0.0.0-py3.10.egg-info
+[0.528s] running install_scripts
+[0.541s] Installing dobot_bringup script to /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/dobot_bringup_v3
+[0.541s] Installing feedback script to /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/dobot_bringup_v3
+[0.541s] writing list of installed files to '/home/huahai/dobot_ws/build/dobot_bringup_v3/install.log'
+[0.556s] Invoked command in '/home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3' returned '0': AMENT_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3 LD_LIBRARY_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahai/dobot_ws/build/dobot_bringup_v3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages:/home/huahai/dobot_ws/install/dobot_msgs_v3/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup_v3 build --build-base /home/huahai/dobot_ws/build/dobot_bringup_v3/build install --record /home/huahai/dobot_ws/build/dobot_bringup_v3/install.log --single-version-externally-managed install_data

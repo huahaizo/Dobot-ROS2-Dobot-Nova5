@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dobot_msgs_v3/msg/RobotStatus.msg
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module msg {
+    struct RobotStatus {
+      boolean is_enable;
+
+      boolean is_connected;
+    };
+  };
+};

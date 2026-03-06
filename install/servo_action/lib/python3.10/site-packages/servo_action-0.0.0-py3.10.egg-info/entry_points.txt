@@ -1,0 +1,4 @@
+[console_scripts]
+Joint_Position = servo_action.Joint_Position:main
+action_move_client = servo_action.action_move_client:main
+

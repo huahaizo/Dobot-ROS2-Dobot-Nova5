@@ -1,0 +1,6 @@
+[console_scripts]
+hand_tracking_3d_node = hand_tracking.hand_tracking_3d_node:main
+hand_tracking_node = hand_tracking.hand_tracking_node:main
+hand_tracking_robot_node = hand_tracking.hand_tracking_robot_node:main
+nova5_ik_node = hand_tracking.nova5_ik_node:main
+

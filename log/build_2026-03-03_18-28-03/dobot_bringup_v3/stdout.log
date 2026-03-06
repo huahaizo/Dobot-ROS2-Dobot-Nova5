@@ -1,0 +1,44 @@
+running egg_info
+creating ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info
+writing ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/PKG-INFO
+writing dependency_links to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/dependency_links.txt
+writing entry points to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/entry_points.txt
+writing requirements to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/requires.txt
+writing top-level names to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/top_level.txt
+writing manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+reading manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+writing manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/huahai/dobot_ws/build/dobot_bringup_v3/build
+creating /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib
+creating /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+copying dobot_bringup_v3/__init__.py -> /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+copying dobot_bringup_v3/dobot_bringup.py -> /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+copying dobot_bringup_v3/feedback.py -> /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+copying dobot_bringup_v3/dobot_api.py -> /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3
+running install
+running install_lib
+creating /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+copying /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/__init__.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+copying /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/dobot_bringup.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+copying /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/feedback.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+copying /home/huahai/dobot_ws/build/dobot_bringup_v3/build/lib/dobot_bringup_v3/dobot_api.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3
+byte-compiling /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/dobot_bringup.py to dobot_bringup.cpython-310.pyc
+byte-compiling /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/feedback.py to feedback.cpython-310.pyc
+byte-compiling /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3/dobot_api.py to dobot_api.cpython-310.pyc
+running install_data
+creating /home/huahai/dobot_ws/install/dobot_bringup_v3/share/ament_index
+creating /home/huahai/dobot_ws/install/dobot_bringup_v3/share/ament_index/resource_index
+creating /home/huahai/dobot_ws/install/dobot_bringup_v3/share/ament_index/resource_index/packages
+copying resource/dobot_bringup_v3 -> /home/huahai/dobot_ws/install/dobot_bringup_v3/share/ament_index/resource_index/packages
+copying package.xml -> /home/huahai/dobot_ws/install/dobot_bringup_v3/share/dobot_bringup_v3
+creating /home/huahai/dobot_ws/install/dobot_bringup_v3/share/dobot_bringup_v3/launch
+copying launch/dobot_bringup_ros2.launch.py -> /home/huahai/dobot_ws/install/dobot_bringup_v3/share/dobot_bringup_v3/launch
+running install_egg_info
+Copying ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info to /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dobot_bringup script to /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/dobot_bringup_v3
+Installing feedback script to /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/dobot_bringup_v3
+writing list of installed files to '/home/huahai/dobot_ws/build/dobot_bringup_v3/install.log'

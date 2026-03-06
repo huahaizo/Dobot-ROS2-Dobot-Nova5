@@ -1,0 +1,5 @@
+[console_scripts]
+advanced_control = robot_control_api.examples.advanced_control:main
+basic_control = robot_control_api.examples.basic_control:main
+text = robot_control_api.examples.text:main
+

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/GetErrorID.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct GetErrorID_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetErrorID_Response {
+      int32 res;
+
+      string error_id;
+    };
+  };
+};

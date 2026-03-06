@@ -1,0 +1,24 @@
+[0.476s] Invoking command in '/home/huahai/dobot_ws/src/qt_robot_control': CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:/home/huahai/dobot_ws/install/nova5_moveit:/home/huahai/dobot_ws/install/nova2_moveit:/home/huahai/dobot_ws/install/cr7_moveit:/home/huahai/dobot_ws/install/cr5_moveit:/home/huahai/dobot_ws/install/cr3_moveit:/home/huahai/dobot_ws/install/cr16_moveit:/home/huahai/dobot_ws/install/cr12_moveit:/home/huahai/dobot_ws/install/cr10_moveit:/home/huahai/dobot_ws/install/dobot_rviz:/home/huahai/dobot_ws/install/dobot_gazebo:/home/huahai/dobot_ws/install/cra_description PS1=\n(TraeAI-4) \w [$?] $ PYTHONPATH=/home/huahai/dobot_ws/build/qt_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/qt_robot_control/lib/python3.10/site-packages:${PYTHONPATH} __trae_PS1=\n(TraeAI-4) \w [$?] $ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qt_robot_control build --build-base /home/huahai/dobot_ws/build/qt_robot_control/build install --record /home/huahai/dobot_ws/build/qt_robot_control/install.log --single-version-externally-managed install_data
+[0.682s] running egg_info
+[0.682s] writing ../../build/qt_robot_control/qt_robot_control.egg-info/PKG-INFO
+[0.683s] writing dependency_links to ../../build/qt_robot_control/qt_robot_control.egg-info/dependency_links.txt
+[0.683s] writing entry points to ../../build/qt_robot_control/qt_robot_control.egg-info/entry_points.txt
+[0.683s] writing requirements to ../../build/qt_robot_control/qt_robot_control.egg-info/requires.txt
+[0.686s] writing top-level names to ../../build/qt_robot_control/qt_robot_control.egg-info/top_level.txt
+[0.688s] reading manifest file '../../build/qt_robot_control/qt_robot_control.egg-info/SOURCES.txt'
+[0.688s] writing manifest file '../../build/qt_robot_control/qt_robot_control.egg-info/SOURCES.txt'
+[0.689s] running build
+[0.689s] running build_py
+[0.689s] copying qt_robot_control/robot_controller.py -> /home/huahai/dobot_ws/build/qt_robot_control/build/lib/qt_robot_control
+[0.689s] running install
+[0.689s] running install_lib
+[0.691s] copying /home/huahai/dobot_ws/build/qt_robot_control/build/lib/qt_robot_control/robot_controller.py -> /home/huahai/dobot_ws/install/qt_robot_control/lib/python3.10/site-packages/qt_robot_control
+[0.692s] byte-compiling /home/huahai/dobot_ws/install/qt_robot_control/lib/python3.10/site-packages/qt_robot_control/robot_controller.py to robot_controller.cpython-310.pyc
+[0.697s] running install_data
+[0.697s] running install_egg_info
+[0.702s] removing '/home/huahai/dobot_ws/install/qt_robot_control/lib/python3.10/site-packages/qt_robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.702s] Copying ../../build/qt_robot_control/qt_robot_control.egg-info to /home/huahai/dobot_ws/install/qt_robot_control/lib/python3.10/site-packages/qt_robot_control-0.0.0-py3.10.egg-info
+[0.704s] running install_scripts
+[0.723s] Installing robot_controller script to /home/huahai/dobot_ws/install/qt_robot_control/lib/qt_robot_control
+[0.725s] writing list of installed files to '/home/huahai/dobot_ws/build/qt_robot_control/install.log'
+[0.744s] Invoked command in '/home/huahai/dobot_ws/src/qt_robot_control' returned '0': CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:/home/huahai/dobot_ws/install/nova5_moveit:/home/huahai/dobot_ws/install/nova2_moveit:/home/huahai/dobot_ws/install/cr7_moveit:/home/huahai/dobot_ws/install/cr5_moveit:/home/huahai/dobot_ws/install/cr3_moveit:/home/huahai/dobot_ws/install/cr16_moveit:/home/huahai/dobot_ws/install/cr12_moveit:/home/huahai/dobot_ws/install/cr10_moveit:/home/huahai/dobot_ws/install/dobot_rviz:/home/huahai/dobot_ws/install/dobot_gazebo:/home/huahai/dobot_ws/install/cra_description PS1=\n(TraeAI-4) \w [$?] $ PYTHONPATH=/home/huahai/dobot_ws/build/qt_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/qt_robot_control/lib/python3.10/site-packages:${PYTHONPATH} __trae_PS1=\n(TraeAI-4) \w [$?] $ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qt_robot_control build --build-base /home/huahai/dobot_ws/build/qt_robot_control/build install --record /home/huahai/dobot_ws/build/qt_robot_control/install.log --single-version-externally-managed install_data

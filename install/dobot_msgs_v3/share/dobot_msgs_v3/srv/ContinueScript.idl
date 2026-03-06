@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/ContinueScript.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct ContinueScript_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ContinueScript_Response {
+      int32 res;
+    };
+  };
+};

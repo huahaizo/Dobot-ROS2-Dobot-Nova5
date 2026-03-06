@@ -1,0 +1,6 @@
+Invoking command in '/home/huahai/dobot_ws/build/dobot_msgs_v3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3 -DCMAKE_INSTALL_PREFIX=/home/huahai/dobot_ws/install/dobot_msgs_v3
+Invoked command in '/home/huahai/dobot_ws/build/dobot_msgs_v3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_msgs_v3 -DCMAKE_INSTALL_PREFIX=/home/huahai/dobot_ws/install/dobot_msgs_v3
+Invoking command in '/home/huahai/dobot_ws/build/dobot_msgs_v3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahai/dobot_ws/build/dobot_msgs_v3 -- -j2 -l2
+Invoked command in '/home/huahai/dobot_ws/build/dobot_msgs_v3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahai/dobot_ws/build/dobot_msgs_v3 -- -j2 -l2
+Invoking command in '/home/huahai/dobot_ws/build/dobot_msgs_v3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahai/dobot_ws/build/dobot_msgs_v3
+Invoked command in '/home/huahai/dobot_ws/build/dobot_msgs_v3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahai/dobot_ws/build/dobot_msgs_v3

@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../build/dobot_demo/dobot_demo.egg-info/PKG-INFO
+writing dependency_links to ../../../build/dobot_demo/dobot_demo.egg-info/dependency_links.txt
+writing entry points to ../../../build/dobot_demo/dobot_demo.egg-info/entry_points.txt
+writing requirements to ../../../build/dobot_demo/dobot_demo.egg-info/requires.txt
+writing top-level names to ../../../build/dobot_demo/dobot_demo.egg-info/top_level.txt
+reading manifest file '../../../build/dobot_demo/dobot_demo.egg-info/SOURCES.txt'
+writing manifest file '../../../build/dobot_demo/dobot_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/huahai/dobot_ws/install/dobot_demo/lib/python3.10/site-packages/dobot_demo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/dobot_demo/dobot_demo.egg-info to /home/huahai/dobot_ws/install/dobot_demo/lib/python3.10/site-packages/dobot_demo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo script to /home/huahai/dobot_ws/install/dobot_demo/lib/dobot_demo
+writing list of installed files to '/home/huahai/dobot_ws/build/dobot_demo/install.log'

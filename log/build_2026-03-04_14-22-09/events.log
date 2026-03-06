@@ -1,0 +1,20 @@
+[0.000000] (-) TimerEvent: {}
+[0.000446] (-) JobUnselected: {'identifier': 'cr10_moveit'}
+[0.000498] (-) JobUnselected: {'identifier': 'cr12_moveit'}
+[0.000524] (-) JobUnselected: {'identifier': 'cr16_moveit'}
+[0.000549] (-) JobUnselected: {'identifier': 'cr3_moveit'}
+[0.000574] (-) JobUnselected: {'identifier': 'cr5_moveit'}
+[0.000598] (-) JobUnselected: {'identifier': 'cr7_moveit'}
+[0.000623] (-) JobUnselected: {'identifier': 'cra_description'}
+[0.000649] (-) JobUnselected: {'identifier': 'dobot_bringup_v3'}
+[0.000692] (-) JobUnselected: {'identifier': 'dobot_demo'}
+[0.000719] (-) JobUnselected: {'identifier': 'dobot_gazebo'}
+[0.000745] (-) JobUnselected: {'identifier': 'dobot_moveit'}
+[0.000771] (-) JobUnselected: {'identifier': 'dobot_msgs_v3'}
+[0.000797] (-) JobUnselected: {'identifier': 'dobot_rviz'}
+[0.000823] (-) JobUnselected: {'identifier': 'nova2_moveit'}
+[0.001085] (-) JobUnselected: {'identifier': 'nova5_moveit'}
+[0.001232] (-) JobUnselected: {'identifier': 'qt_robot_control'}
+[0.001382] (-) JobUnselected: {'identifier': 'robot_control_api'}
+[0.001413] (-) JobUnselected: {'identifier': 'servo_action'}
+[0.001656] (-) EventReactorShutdown: {}

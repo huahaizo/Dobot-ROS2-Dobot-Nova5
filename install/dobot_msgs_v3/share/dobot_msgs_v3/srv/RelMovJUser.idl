@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/RelMovJUser.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct RelMovJUser_Request {
+      double offset1;
+
+      double offset2;
+
+      double offset3;
+
+      double offset4;
+
+      double offset5;
+
+      double offset6;
+
+      int32 user;
+
+      sequence<string> param_value;
+    };
+    struct RelMovJUser_Response {
+      int32 res;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+[console_scripts]
+dobot_bringup = dobot_bringup_v3.dobot_bringup:main
+feedback = dobot_bringup_v3.feedback:main
+

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/StartTrace.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct StartTrace_Request {
+      string trace_name;
+    };
+    struct StartTrace_Response {
+      int32 res;
+    };
+  };
+};

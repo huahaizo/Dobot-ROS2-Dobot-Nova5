@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/GetPose.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct GetPose_Request {
+      int32 user;
+
+      int32 tool;
+    };
+    struct GetPose_Response {
+      int32 res;
+
+      string pose;
+    };
+  };
+};

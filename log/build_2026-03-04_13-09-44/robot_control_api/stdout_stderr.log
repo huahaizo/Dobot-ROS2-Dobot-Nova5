@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/robot_control_api/robot_control_api.egg-info
+writing ../../build/robot_control_api/robot_control_api.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_control_api/robot_control_api.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_control_api/robot_control_api.egg-info/entry_points.txt
+writing requirements to ../../build/robot_control_api/robot_control_api.egg-info/requires.txt
+writing top-level names to ../../build/robot_control_api/robot_control_api.egg-info/top_level.txt
+writing manifest file '../../build/robot_control_api/robot_control_api.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_control_api/robot_control_api.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_control_api/robot_control_api.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/huahai/dobot_ws/build/robot_control_api/build
+creating /home/huahai/dobot_ws/build/robot_control_api/build/lib
+creating /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api
+copying robot_control_api/__init__.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api
+copying robot_control_api/nova5_controller.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api
+creating /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples
+copying robot_control_api/examples/__init__.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples
+copying robot_control_api/examples/basic_control.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples
+copying robot_control_api/examples/advanced_control.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples
+running install
+running install_lib
+creating /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api
+copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/__init__.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api
+copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/nova5_controller.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api
+creating /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples
+copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples/__init__.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples
+copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples/basic_control.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples
+copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples/advanced_control.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples
+byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/nova5_controller.py to nova5_controller.cpython-310.pyc
+byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples/basic_control.py to basic_control.cpython-310.pyc
+byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples/advanced_control.py to advanced_control.cpython-310.pyc
+running install_data
+creating /home/huahai/dobot_ws/install/robot_control_api/share/ament_index
+creating /home/huahai/dobot_ws/install/robot_control_api/share/ament_index/resource_index
+creating /home/huahai/dobot_ws/install/robot_control_api/share/ament_index/resource_index/packages
+copying resource/robot_control_api -> /home/huahai/dobot_ws/install/robot_control_api/share/ament_index/resource_index/packages
+copying package.xml -> /home/huahai/dobot_ws/install/robot_control_api/share/robot_control_api
+running install_egg_info
+Copying ../../build/robot_control_api/robot_control_api.egg-info to /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api-0.0.0-py3.10.egg-info
+running install_scripts
+Installing advanced_control script to /home/huahai/dobot_ws/install/robot_control_api/lib/robot_control_api
+Installing basic_control script to /home/huahai/dobot_ws/install/robot_control_api/lib/robot_control_api
+writing list of installed files to '/home/huahai/dobot_ws/build/robot_control_api/install.log'

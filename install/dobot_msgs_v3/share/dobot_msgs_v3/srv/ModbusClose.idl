@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/ModbusClose.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct ModbusClose_Request {
+      int32 index;
+    };
+    struct ModbusClose_Response {
+      int32 res;
+    };
+  };
+};

@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/InverseSolution.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct InverseSolution_Request {
+      double offset1;
+
+      double offset2;
+
+      double offset3;
+
+      double offset4;
+
+      double offset5;
+
+      double offset6;
+
+      int32 user;
+
+      int32 tool;
+
+      int32 is_jointnear;
+
+      string joint_near;
+    };
+    struct InverseSolution_Response {
+      int32 res;
+    };
+  };
+};

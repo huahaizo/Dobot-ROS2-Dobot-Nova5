@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/JointMovJ.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct JointMovJ_Request {
+      double j1;
+
+      double j2;
+
+      double j3;
+
+      double j4;
+
+      double j5;
+
+      double j6;
+
+      sequence<string> param_value;
+    };
+    struct JointMovJ_Response {
+      int32 res;
+    };
+  };
+};

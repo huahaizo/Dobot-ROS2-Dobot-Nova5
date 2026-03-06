@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/BrakeControl.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct BrakeControl_Request {
+      int32 axis_id;
+
+      int32 value;
+    };
+    struct BrakeControl_Response {
+      int32 res;
+    };
+  };
+};

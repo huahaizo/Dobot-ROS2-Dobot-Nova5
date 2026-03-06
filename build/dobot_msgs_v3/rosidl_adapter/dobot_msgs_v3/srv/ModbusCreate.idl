@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/ModbusCreate.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct ModbusCreate_Request {
+      string ip;
+
+      int32 port;
+
+      int32 slave_id;
+
+      int32 is_rtu;
+    };
+    struct ModbusCreate_Response {
+      int32 res;
+
+      string index;
+    };
+  };
+};

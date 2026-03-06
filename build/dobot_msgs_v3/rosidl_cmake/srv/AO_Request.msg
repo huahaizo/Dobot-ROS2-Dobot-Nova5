@@ -1,0 +1,4 @@
+# index --> 1 - 2
+# value --> 0 - 10
+int32 index
+int32 status

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/SetHoldRegs.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct SetHoldRegs_Request {
+      int32 index;
+
+      int32 addr;
+
+      int32 count;
+
+      string val_tab;
+
+      string val_type;
+    };
+    struct SetHoldRegs_Response {
+      int32 res;
+    };
+  };
+};

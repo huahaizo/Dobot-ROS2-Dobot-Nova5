@@ -1,0 +1,122 @@
+[0.012s] Invoking command in '/home/huahai/dobot_ws/build/dobot_rviz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_rviz -DCMAKE_INSTALL_PREFIX=/home/huahai/dobot_ws/install/dobot_rviz
+[0.176s] -- The C compiler identification is GNU 11.4.0
+[0.271s] -- The CXX compiler identification is GNU 11.4.0
+[0.282s] -- Detecting C compiler ABI info
+[0.343s] -- Detecting C compiler ABI info - done
+[0.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.348s] -- Detecting C compile features
+[0.350s] -- Detecting C compile features - done
+[0.354s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.426s] -- Detecting CXX compile features
+[0.426s] -- Detecting CXX compile features - done
+[0.429s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.546s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.638s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.711s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.712s] -- Added test 'lint_cmake' to check CMake code style
+[0.713s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.718s] -- Added test 'xmllint' to check XML markup files
+[0.718s] -- Configuring done
+[0.721s] -- Generating done
+[0.721s] -- Build files have been written to: /home/huahai/dobot_ws/build/dobot_rviz
+[0.725s] Invoked command in '/home/huahai/dobot_ws/build/dobot_rviz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_rviz -DCMAKE_INSTALL_PREFIX=/home/huahai/dobot_ws/install/dobot_rviz
+[0.729s] Invoking command in '/home/huahai/dobot_ws/build/dobot_rviz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahai/dobot_ws/build/dobot_rviz -- -j2 -l2
+[0.767s] Invoked command in '/home/huahai/dobot_ws/build/dobot_rviz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huahai/dobot_ws/build/dobot_rviz -- -j2 -l2
+[0.772s] Invoking command in '/home/huahai/dobot_ws/build/dobot_rviz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahai/dobot_ws/build/dobot_rviz
+[0.778s] -- Install configuration: ""
+[0.778s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/launch
+[0.779s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/launch/dobot_rviz.launch.py
+[0.779s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/urdf
+[0.779s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/urdf/cr10_robot.urdf
+[0.779s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/urdf/cr16_robot.urdf
+[0.779s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/urdf/cr12_robot.urdf
+[0.780s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/urdf/cr7_robot.urdf
+[0.780s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/urdf/cr5_robot.urdf
+[0.780s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/urdf/nova5_robot.urdf
+[0.780s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/urdf/cr3_robot.urdf
+[0.780s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/urdf/nova2_robot.urdf
+[0.781s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/rviz
+[0.781s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/rviz/urdf.rviz
+[0.781s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes
+[0.781s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova5
+[0.781s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova5/Link4.STL
+[0.782s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova5/Link6.STL
+[0.784s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova5/Link5.STL
+[0.785s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova5/Link3.STL
+[0.787s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova5/Link2.STL
+[0.787s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova5/Link1.STL
+[0.788s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova5/base_link.STL
+[0.789s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr5
+[0.789s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr5/Link6.dae
+[0.789s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr5/base_link.dae
+[0.789s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr5/Link4.dae
+[0.790s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr5/Link2.dae
+[0.792s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr5/Link3.dae
+[0.793s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr5/Link5.dae
+[0.794s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr5/Link1.dae
+[0.794s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr16
+[0.795s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr16/Link4.STL
+[0.795s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr16/Link6.STL
+[0.796s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr16/Link5.STL
+[0.796s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr16/Link3.STL
+[0.797s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr16/Link2.STL
+[0.797s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr16/Link1.STL
+[0.799s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr16/base_link.STL
+[0.799s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr7
+[0.799s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr7/J2.STL
+[0.800s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr7/J3.STL
+[0.801s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr7/base_link0.STL
+[0.802s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr7/J4.STL
+[0.802s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr7/J5.STL
+[0.804s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr7/J6.STL
+[0.804s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr7/J1.STL
+[0.804s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr12
+[0.805s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr12/J2.STL
+[0.805s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr12/J3.STL
+[0.806s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr12/base_link0.STL
+[0.808s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr12/J4.STL
+[0.808s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr12/J5.STL
+[0.809s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr12/J6.STL
+[0.810s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr12/J1.STL
+[0.810s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr10
+[0.811s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr10/Link4.STL
+[0.811s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr10/Link6.STL
+[0.812s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr10/Link5.STL
+[0.812s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr10/Link3.STL
+[0.813s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr10/Link2.STL
+[0.815s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr10/Link1.STL
+[0.815s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr10/base_link.STL
+[0.815s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova2
+[0.815s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova2/Link4.STL
+[0.817s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova2/Link6.STL
+[0.817s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova2/Link5.STL
+[0.817s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova2/Link3.STL
+[0.818s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova2/Link2.STL
+[0.818s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova2/Link1.STL
+[0.823s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/nova2/base_link.STL
+[0.823s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr3
+[0.823s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr3/Link4.STL
+[0.823s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr3/Link6.STL
+[0.823s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr3/Link5.STL
+[0.823s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr3/Link3.STL
+[0.823s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr3/Link2.STL
+[0.823s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr3/Link1.STL
+[0.824s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/meshes/cr3/base_link.STL
+[0.826s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/ament_index/resource_index/package_run_dependencies/dobot_rviz
+[0.826s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/ament_index/resource_index/parent_prefix_path/dobot_rviz
+[0.826s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/environment/ament_prefix_path.sh
+[0.826s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/environment/ament_prefix_path.dsv
+[0.827s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/environment/path.sh
+[0.827s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/environment/path.dsv
+[0.827s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/local_setup.bash
+[0.827s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/local_setup.sh
+[0.827s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/local_setup.zsh
+[0.828s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/local_setup.dsv
+[0.828s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/package.dsv
+[0.828s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/ament_index/resource_index/packages/dobot_rviz
+[0.828s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/cmake/dobot_rvizConfig.cmake
+[0.828s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/cmake/dobot_rvizConfig-version.cmake
+[0.828s] -- Installing: /home/huahai/dobot_ws/install/dobot_rviz/share/dobot_rviz/package.xml
+[0.831s] Invoked command in '/home/huahai/dobot_ws/build/dobot_rviz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huahai/dobot_ws/build/dobot_rviz

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/dobot_demo/dobot_demo.egg-info
+writing ../../../build/dobot_demo/dobot_demo.egg-info/PKG-INFO
+writing dependency_links to ../../../build/dobot_demo/dobot_demo.egg-info/dependency_links.txt
+writing entry points to ../../../build/dobot_demo/dobot_demo.egg-info/entry_points.txt
+writing requirements to ../../../build/dobot_demo/dobot_demo.egg-info/requires.txt
+writing top-level names to ../../../build/dobot_demo/dobot_demo.egg-info/top_level.txt
+writing manifest file '../../../build/dobot_demo/dobot_demo.egg-info/SOURCES.txt'
+reading manifest file '../../../build/dobot_demo/dobot_demo.egg-info/SOURCES.txt'
+writing manifest file '../../../build/dobot_demo/dobot_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/huahai/dobot_ws/build/dobot_demo/build
+creating /home/huahai/dobot_ws/build/dobot_demo/build/lib
+creating /home/huahai/dobot_ws/build/dobot_demo/build/lib/dobot_demo
+copying dobot_demo/__init__.py -> /home/huahai/dobot_ws/build/dobot_demo/build/lib/dobot_demo
+copying dobot_demo/demo.py -> /home/huahai/dobot_ws/build/dobot_demo/build/lib/dobot_demo
+running install
+running install_lib
+creating /home/huahai/dobot_ws/install/dobot_demo/lib/python3.10/site-packages/dobot_demo
+copying /home/huahai/dobot_ws/build/dobot_demo/build/lib/dobot_demo/__init__.py -> /home/huahai/dobot_ws/install/dobot_demo/lib/python3.10/site-packages/dobot_demo
+copying /home/huahai/dobot_ws/build/dobot_demo/build/lib/dobot_demo/demo.py -> /home/huahai/dobot_ws/install/dobot_demo/lib/python3.10/site-packages/dobot_demo
+byte-compiling /home/huahai/dobot_ws/install/dobot_demo/lib/python3.10/site-packages/dobot_demo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/huahai/dobot_ws/install/dobot_demo/lib/python3.10/site-packages/dobot_demo/demo.py to demo.cpython-310.pyc
+running install_data
+creating /home/huahai/dobot_ws/install/dobot_demo/share/ament_index
+creating /home/huahai/dobot_ws/install/dobot_demo/share/ament_index/resource_index
+creating /home/huahai/dobot_ws/install/dobot_demo/share/ament_index/resource_index/packages
+copying resource/dobot_demo -> /home/huahai/dobot_ws/install/dobot_demo/share/ament_index/resource_index/packages
+copying package.xml -> /home/huahai/dobot_ws/install/dobot_demo/share/dobot_demo
+running install_egg_info
+Copying ../../../build/dobot_demo/dobot_demo.egg-info to /home/huahai/dobot_ws/install/dobot_demo/lib/python3.10/site-packages/dobot_demo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo script to /home/huahai/dobot_ws/install/dobot_demo/lib/dobot_demo
+writing list of installed files to '/home/huahai/dobot_ws/build/dobot_demo/install.log'

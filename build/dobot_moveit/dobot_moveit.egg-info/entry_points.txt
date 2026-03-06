@@ -1,0 +1,4 @@
+[console_scripts]
+action_move_server = dobot_moveit.action_move_server:main
+joint_states = dobot_moveit.joint_states:main
+

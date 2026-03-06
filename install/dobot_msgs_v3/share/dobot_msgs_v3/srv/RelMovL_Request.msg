@@ -1,0 +1,7 @@
+float64 offset1
+float64 offset2
+float64 offset3
+float64 offset4
+float64 offset5
+float64 offset6
+string[] param_value

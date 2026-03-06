@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/DigitalOutputs.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    @verbatim (language="comment", text=
+      "index --> 0 - 9")
+    struct DigitalOutputs_Request {
+      int32 index;
+
+      boolean status;
+    };
+    struct DigitalOutputs_Response {
+      int32 res;
+    };
+  };
+};

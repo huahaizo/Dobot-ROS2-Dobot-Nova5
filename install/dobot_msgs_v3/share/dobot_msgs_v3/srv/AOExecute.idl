@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/AOExecute.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    @verbatim (language="comment", text=
+      "index --> 1 - 2" "\n"
+      "value --> 0 - 10")
+    struct AOExecute_Request {
+      int32 index;
+
+      int32 value;
+    };
+    struct AOExecute_Response {
+      int32 res;
+    };
+  };
+};

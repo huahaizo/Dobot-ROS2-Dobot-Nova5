@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/DI.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct DI_Request {
+      int32 index;
+    };
+    struct DI_Response {
+      int32 res;
+    };
+  };
+};

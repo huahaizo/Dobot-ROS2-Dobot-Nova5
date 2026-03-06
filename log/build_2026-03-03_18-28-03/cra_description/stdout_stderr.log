@@ -1,0 +1,107 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/huahai/dobot_ws/build/cra_description
+-- Install configuration: ""
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/ament_index/resource_index/package_run_dependencies/cra_description
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/ament_index/resource_index/parent_prefix_path/cra_description
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/environment/ament_prefix_path.sh
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/environment/ament_prefix_path.dsv
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/environment/path.sh
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/environment/path.dsv
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/local_setup.bash
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/local_setup.sh
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/local_setup.zsh
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/local_setup.dsv
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/package.dsv
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/ament_index/resource_index/packages/cra_description
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/cmake/cra_descriptionConfig.cmake
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/cmake/cra_descriptionConfig-version.cmake
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/package.xml
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/urdf
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/urdf/nova2_robot.xacro
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/urdf/cr3_robot.xacro
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/urdf/cr7_robot.xacro
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/urdf/cr5_robot.xacro
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/urdf/cr10_robot.xacro
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/urdf/nova5_robot.xacro
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/urdf/cr12_robot.xacro
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/urdf/cr16_robot.xacro
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova5
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova5/Link4.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova5/Link6.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova5/Link5.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova5/Link3.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova5/Link2.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova5/Link1.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova5/base_link.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr5
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr5/Link6.dae
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr5/base_link.dae
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr5/Link4.dae
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr5/Link2.dae
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr5/Link3.dae
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr5/Link5.dae
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr5/Link1.dae
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr16
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr16/Link4.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr16/Link6.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr16/Link5.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr16/Link3.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr16/Link2.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr16/Link1.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr16/base_link.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr7
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr7/J2.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr7/J3.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr7/base_link0.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr7/J4.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr7/J5.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr7/J6.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr7/J1.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr12
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr12/J2.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr12/J3.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr12/base_link0.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr12/J4.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr12/J5.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr12/J6.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr12/J1.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr10
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr10/Link4.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr10/Link6.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr10/Link5.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr10/Link3.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr10/Link2.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr10/Link1.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr10/base_link.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova2
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova2/Link4.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova2/Link6.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova2/Link5.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova2/Link3.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova2/Link2.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova2/Link1.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/nova2/base_link.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr3
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr3/Link4.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr3/Link6.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr3/Link5.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr3/Link3.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr3/Link2.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr3/Link1.STL
+-- Installing: /home/huahai/dobot_ws/install/cra_description/share/cra_description/meshes/cr3/base_link.STL

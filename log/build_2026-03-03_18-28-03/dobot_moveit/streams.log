@@ -1,0 +1,46 @@
+[0.381s] Invoking command in '/home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_moveit': PYTHONPATH=/home/huahai/dobot_ws/build/dobot_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_moveit build --build-base /home/huahai/dobot_ws/build/dobot_moveit/build install --record /home/huahai/dobot_ws/build/dobot_moveit/install.log --single-version-externally-managed install_data
+[0.516s] running egg_info
+[0.516s] creating ../../../build/dobot_moveit/dobot_moveit.egg-info
+[0.516s] writing ../../../build/dobot_moveit/dobot_moveit.egg-info/PKG-INFO
+[0.516s] writing dependency_links to ../../../build/dobot_moveit/dobot_moveit.egg-info/dependency_links.txt
+[0.516s] writing entry points to ../../../build/dobot_moveit/dobot_moveit.egg-info/entry_points.txt
+[0.517s] writing requirements to ../../../build/dobot_moveit/dobot_moveit.egg-info/requires.txt
+[0.517s] writing top-level names to ../../../build/dobot_moveit/dobot_moveit.egg-info/top_level.txt
+[0.517s] writing manifest file '../../../build/dobot_moveit/dobot_moveit.egg-info/SOURCES.txt'
+[0.519s] reading manifest file '../../../build/dobot_moveit/dobot_moveit.egg-info/SOURCES.txt'
+[0.519s] writing manifest file '../../../build/dobot_moveit/dobot_moveit.egg-info/SOURCES.txt'
+[0.519s] running build
+[0.519s] running build_py
+[0.519s] creating /home/huahai/dobot_ws/build/dobot_moveit/build
+[0.519s] creating /home/huahai/dobot_ws/build/dobot_moveit/build/lib
+[0.519s] creating /home/huahai/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit
+[0.519s] copying dobot_moveit/__init__.py -> /home/huahai/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit
+[0.519s] copying dobot_moveit/joint_states.py -> /home/huahai/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit
+[0.519s] copying dobot_moveit/action_move_server.py -> /home/huahai/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit
+[0.519s] running install
+[0.519s] running install_lib
+[0.519s] creating /home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit
+[0.519s] copying /home/huahai/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit/__init__.py -> /home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit
+[0.519s] copying /home/huahai/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit/joint_states.py -> /home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit
+[0.519s] copying /home/huahai/dobot_ws/build/dobot_moveit/build/lib/dobot_moveit/action_move_server.py -> /home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit
+[0.520s] byte-compiling /home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit/__init__.py to __init__.cpython-310.pyc
+[0.520s] byte-compiling /home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit/joint_states.py to joint_states.cpython-310.pyc
+[0.520s] byte-compiling /home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit/action_move_server.py to action_move_server.cpython-310.pyc
+[0.522s] running install_data
+[0.522s] creating /home/huahai/dobot_ws/install/dobot_moveit/share/ament_index
+[0.522s] creating /home/huahai/dobot_ws/install/dobot_moveit/share/ament_index/resource_index
+[0.522s] creating /home/huahai/dobot_ws/install/dobot_moveit/share/ament_index/resource_index/packages
+[0.522s] copying resource/dobot_moveit -> /home/huahai/dobot_ws/install/dobot_moveit/share/ament_index/resource_index/packages
+[0.522s] copying package.xml -> /home/huahai/dobot_ws/install/dobot_moveit/share/dobot_moveit
+[0.522s] creating /home/huahai/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[0.522s] copying launch/dobot_moveit.launch.py -> /home/huahai/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[0.522s] copying launch/moveit_gazebo.launch.py -> /home/huahai/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[0.522s] copying launch/moveit_demo.launch.py -> /home/huahai/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[0.522s] copying launch/dobot_joint.launch.py -> /home/huahai/dobot_ws/install/dobot_moveit/share/dobot_moveit/launch
+[0.522s] running install_egg_info
+[0.522s] Copying ../../../build/dobot_moveit/dobot_moveit.egg-info to /home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages/dobot_moveit-0.0.0-py3.10.egg-info
+[0.523s] running install_scripts
+[0.535s] Installing action_move_server script to /home/huahai/dobot_ws/install/dobot_moveit/lib/dobot_moveit
+[0.536s] Installing joint_states script to /home/huahai/dobot_ws/install/dobot_moveit/lib/dobot_moveit
+[0.536s] writing list of installed files to '/home/huahai/dobot_ws/build/dobot_moveit/install.log'
+[0.549s] Invoked command in '/home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_moveit' returned '0': PYTHONPATH=/home/huahai/dobot_ws/build/dobot_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_moveit build --build-base /home/huahai/dobot_ws/build/dobot_moveit/build install --record /home/huahai/dobot_ws/build/dobot_moveit/install.log --single-version-externally-managed install_data

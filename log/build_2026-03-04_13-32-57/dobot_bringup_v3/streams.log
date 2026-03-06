@@ -1,0 +1,22 @@
+[0.604s] Invoking command in '/home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3': CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:/home/huahai/dobot_ws/install/nova5_moveit:/home/huahai/dobot_ws/install/nova2_moveit:/home/huahai/dobot_ws/install/cr7_moveit:/home/huahai/dobot_ws/install/cr5_moveit:/home/huahai/dobot_ws/install/cr3_moveit:/home/huahai/dobot_ws/install/cr16_moveit:/home/huahai/dobot_ws/install/cr12_moveit:/home/huahai/dobot_ws/install/cr10_moveit:/home/huahai/dobot_ws/install/dobot_rviz:/home/huahai/dobot_ws/install/dobot_gazebo:/home/huahai/dobot_ws/install/cra_description PYTHONPATH=/home/huahai/dobot_ws/build/dobot_bringup_v3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup_v3 build --build-base /home/huahai/dobot_ws/build/dobot_bringup_v3/build install --record /home/huahai/dobot_ws/build/dobot_bringup_v3/install.log --single-version-externally-managed install_data
+[0.820s] running egg_info
+[0.821s] writing ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/PKG-INFO
+[0.822s] writing dependency_links to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/dependency_links.txt
+[0.822s] writing entry points to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/entry_points.txt
+[0.822s] writing requirements to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/requires.txt
+[0.822s] writing top-level names to ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/top_level.txt
+[0.826s] reading manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+[0.826s] writing manifest file '../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info/SOURCES.txt'
+[0.826s] running build
+[0.827s] running build_py
+[0.827s] running install
+[0.827s] running install_lib
+[0.830s] running install_data
+[0.830s] running install_egg_info
+[0.831s] removing '/home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3-0.0.0-py3.10.egg-info' (and everything under it)
+[0.833s] Copying ../../../build/dobot_bringup_v3/dobot_bringup_v3.egg-info to /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages/dobot_bringup_v3-0.0.0-py3.10.egg-info
+[0.834s] running install_scripts
+[0.854s] Installing dobot_bringup script to /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/dobot_bringup_v3
+[0.855s] Installing feedback script to /home/huahai/dobot_ws/install/dobot_bringup_v3/lib/dobot_bringup_v3
+[0.855s] writing list of installed files to '/home/huahai/dobot_ws/build/dobot_bringup_v3/install.log'
+[0.879s] Invoked command in '/home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3' returned '0': CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:/home/huahai/dobot_ws/install/nova5_moveit:/home/huahai/dobot_ws/install/nova2_moveit:/home/huahai/dobot_ws/install/cr7_moveit:/home/huahai/dobot_ws/install/cr5_moveit:/home/huahai/dobot_ws/install/cr3_moveit:/home/huahai/dobot_ws/install/cr16_moveit:/home/huahai/dobot_ws/install/cr12_moveit:/home/huahai/dobot_ws/install/cr10_moveit:/home/huahai/dobot_ws/install/dobot_rviz:/home/huahai/dobot_ws/install/dobot_gazebo:/home/huahai/dobot_ws/install/cra_description PYTHONPATH=/home/huahai/dobot_ws/build/dobot_bringup_v3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/dobot_bringup_v3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_bringup_v3 build --build-base /home/huahai/dobot_ws/build/dobot_bringup_v3/build install --record /home/huahai/dobot_ws/build/dobot_bringup_v3/install.log --single-version-externally-managed install_data

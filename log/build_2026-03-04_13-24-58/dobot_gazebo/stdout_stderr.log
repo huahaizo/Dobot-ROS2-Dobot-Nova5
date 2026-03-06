@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/launch
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/launch/gazebo_moveit.launch.py
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/launch/dobot_gazebo.launch.py
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/worlds
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/worlds/ur10.world
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/config
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/config/moveitcpp.rviz
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/ament_index/resource_index/package_run_dependencies/dobot_gazebo
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/ament_index/resource_index/parent_prefix_path/dobot_gazebo
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/environment/path.sh
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/environment/path.dsv
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/local_setup.bash
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/local_setup.sh
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/local_setup.zsh
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/local_setup.dsv
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/package.dsv
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/ament_index/resource_index/packages/dobot_gazebo
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/cmake/dobot_gazeboConfig.cmake
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/cmake/dobot_gazeboConfig-version.cmake
+-- Up-to-date: /home/huahai/dobot_ws/install/dobot_gazebo/share/dobot_gazebo/package.xml

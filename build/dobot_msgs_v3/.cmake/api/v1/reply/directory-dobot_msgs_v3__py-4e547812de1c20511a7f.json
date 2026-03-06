@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dobot_msgs_v3__py",
+		"source" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/dobot_msgs_v3__py"
+	}
+}

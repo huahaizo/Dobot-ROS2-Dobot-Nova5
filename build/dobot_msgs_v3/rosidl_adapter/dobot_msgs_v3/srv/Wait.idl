@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/Wait.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct Wait_Request {
+      int32 time;
+    };
+    struct Wait_Response {
+      int32 res;
+    };
+  };
+};

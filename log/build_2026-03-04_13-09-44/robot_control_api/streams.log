@@ -1,0 +1,49 @@
+[0.467s] Invoking command in '/home/huahai/dobot_ws/src/robot_control_api': CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:/home/huahai/dobot_ws/install/nova5_moveit:/home/huahai/dobot_ws/install/nova2_moveit:/home/huahai/dobot_ws/install/cr7_moveit:/home/huahai/dobot_ws/install/cr5_moveit:/home/huahai/dobot_ws/install/cr3_moveit:/home/huahai/dobot_ws/install/cr16_moveit:/home/huahai/dobot_ws/install/cr12_moveit:/home/huahai/dobot_ws/install/cr10_moveit:/home/huahai/dobot_ws/install/dobot_rviz:/home/huahai/dobot_ws/install/dobot_gazebo:/home/huahai/dobot_ws/install/cra_description PS1=\n(TraeAI-4) \w [$?] $ PYTHONPATH=/home/huahai/dobot_ws/build/robot_control_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages:${PYTHONPATH} __trae_PS1=\n(TraeAI-4) \w [$?] $ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control_api build --build-base /home/huahai/dobot_ws/build/robot_control_api/build install --record /home/huahai/dobot_ws/build/robot_control_api/install.log --single-version-externally-managed install_data
+[0.637s] running egg_info
+[0.638s] creating ../../build/robot_control_api/robot_control_api.egg-info
+[0.638s] writing ../../build/robot_control_api/robot_control_api.egg-info/PKG-INFO
+[0.639s] writing dependency_links to ../../build/robot_control_api/robot_control_api.egg-info/dependency_links.txt
+[0.642s] writing entry points to ../../build/robot_control_api/robot_control_api.egg-info/entry_points.txt
+[0.643s] writing requirements to ../../build/robot_control_api/robot_control_api.egg-info/requires.txt
+[0.643s] writing top-level names to ../../build/robot_control_api/robot_control_api.egg-info/top_level.txt
+[0.643s] writing manifest file '../../build/robot_control_api/robot_control_api.egg-info/SOURCES.txt'
+[0.643s] reading manifest file '../../build/robot_control_api/robot_control_api.egg-info/SOURCES.txt'
+[0.643s] writing manifest file '../../build/robot_control_api/robot_control_api.egg-info/SOURCES.txt'
+[0.643s] running build
+[0.644s] running build_py
+[0.644s] creating /home/huahai/dobot_ws/build/robot_control_api/build
+[0.644s] creating /home/huahai/dobot_ws/build/robot_control_api/build/lib
+[0.646s] creating /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api
+[0.646s] copying robot_control_api/__init__.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api
+[0.647s] copying robot_control_api/nova5_controller.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api
+[0.647s] creating /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples
+[0.647s] copying robot_control_api/examples/__init__.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples
+[0.647s] copying robot_control_api/examples/basic_control.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples
+[0.647s] copying robot_control_api/examples/advanced_control.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples
+[0.647s] running install
+[0.647s] running install_lib
+[0.648s] creating /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api
+[0.648s] copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/__init__.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api
+[0.649s] copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/nova5_controller.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api
+[0.649s] creating /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples
+[0.649s] copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples/__init__.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples
+[0.649s] copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples/basic_control.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples
+[0.651s] copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples/advanced_control.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples
+[0.651s] byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/__init__.py to __init__.cpython-310.pyc
+[0.653s] byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/nova5_controller.py to nova5_controller.cpython-310.pyc
+[0.653s] byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples/__init__.py to __init__.cpython-310.pyc
+[0.653s] byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples/basic_control.py to basic_control.cpython-310.pyc
+[0.657s] byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples/advanced_control.py to advanced_control.cpython-310.pyc
+[0.657s] running install_data
+[0.657s] creating /home/huahai/dobot_ws/install/robot_control_api/share/ament_index
+[0.657s] creating /home/huahai/dobot_ws/install/robot_control_api/share/ament_index/resource_index
+[0.657s] creating /home/huahai/dobot_ws/install/robot_control_api/share/ament_index/resource_index/packages
+[0.657s] copying resource/robot_control_api -> /home/huahai/dobot_ws/install/robot_control_api/share/ament_index/resource_index/packages
+[0.657s] copying package.xml -> /home/huahai/dobot_ws/install/robot_control_api/share/robot_control_api
+[0.657s] running install_egg_info
+[0.659s] Copying ../../build/robot_control_api/robot_control_api.egg-info to /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api-0.0.0-py3.10.egg-info
+[0.659s] running install_scripts
+[0.674s] Installing advanced_control script to /home/huahai/dobot_ws/install/robot_control_api/lib/robot_control_api
+[0.675s] Installing basic_control script to /home/huahai/dobot_ws/install/robot_control_api/lib/robot_control_api
+[0.675s] writing list of installed files to '/home/huahai/dobot_ws/build/robot_control_api/install.log'
+[0.694s] Invoked command in '/home/huahai/dobot_ws/src/robot_control_api' returned '0': CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:/home/huahai/dobot_ws/install/nova5_moveit:/home/huahai/dobot_ws/install/nova2_moveit:/home/huahai/dobot_ws/install/cr7_moveit:/home/huahai/dobot_ws/install/cr5_moveit:/home/huahai/dobot_ws/install/cr3_moveit:/home/huahai/dobot_ws/install/cr16_moveit:/home/huahai/dobot_ws/install/cr12_moveit:/home/huahai/dobot_ws/install/cr10_moveit:/home/huahai/dobot_ws/install/dobot_rviz:/home/huahai/dobot_ws/install/dobot_gazebo:/home/huahai/dobot_ws/install/cra_description PS1=\n(TraeAI-4) \w [$?] $ PYTHONPATH=/home/huahai/dobot_ws/build/robot_control_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages:${PYTHONPATH} __trae_PS1=\n(TraeAI-4) \w [$?] $ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control_api build --build-base /home/huahai/dobot_ws/build/robot_control_api/build install --record /home/huahai/dobot_ws/build/robot_control_api/install.log --single-version-externally-managed install_data

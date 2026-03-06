@@ -1,0 +1,27 @@
+[1.227s] Invoking command in '/home/huahai/dobot_ws/src/hand_tracking': PYTHONPATH=/home/huahai/dobot_ws/build/hand_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_tracking build --build-base /home/huahai/dobot_ws/build/hand_tracking/build install --record /home/huahai/dobot_ws/build/hand_tracking/install.log --single-version-externally-managed install_data
+[1.761s] running egg_info
+[1.761s] writing ../../build/hand_tracking/hand_tracking.egg-info/PKG-INFO
+[1.765s] writing dependency_links to ../../build/hand_tracking/hand_tracking.egg-info/dependency_links.txt
+[1.765s] writing entry points to ../../build/hand_tracking/hand_tracking.egg-info/entry_points.txt
+[1.766s] writing requirements to ../../build/hand_tracking/hand_tracking.egg-info/requires.txt
+[1.766s] writing top-level names to ../../build/hand_tracking/hand_tracking.egg-info/top_level.txt
+[1.766s] reading manifest file '../../build/hand_tracking/hand_tracking.egg-info/SOURCES.txt'
+[1.771s] writing manifest file '../../build/hand_tracking/hand_tracking.egg-info/SOURCES.txt'
+[1.771s] running build
+[1.771s] running build_py
+[1.771s] copying hand_tracking/hand_tracking_3d_node.py -> /home/huahai/dobot_ws/build/hand_tracking/build/lib/hand_tracking
+[1.771s] running install
+[1.771s] running install_lib
+[1.772s] copying /home/huahai/dobot_ws/build/hand_tracking/build/lib/hand_tracking/hand_tracking_3d_node.py -> /home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages/hand_tracking
+[1.772s] byte-compiling /home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages/hand_tracking/hand_tracking_3d_node.py to hand_tracking_3d_node.cpython-310.pyc
+[1.779s] running install_data
+[1.779s] running install_egg_info
+[1.779s] removing '/home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages/hand_tracking-0.0.0-py3.10.egg-info' (and everything under it)
+[1.781s] Copying ../../build/hand_tracking/hand_tracking.egg-info to /home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages/hand_tracking-0.0.0-py3.10.egg-info
+[1.782s] running install_scripts
+[1.811s] Installing hand_tracking_3d_node script to /home/huahai/dobot_ws/install/hand_tracking/lib/hand_tracking
+[1.811s] Installing hand_tracking_node script to /home/huahai/dobot_ws/install/hand_tracking/lib/hand_tracking
+[1.811s] Installing hand_tracking_robot_node script to /home/huahai/dobot_ws/install/hand_tracking/lib/hand_tracking
+[1.811s] Installing nova5_ik_node script to /home/huahai/dobot_ws/install/hand_tracking/lib/hand_tracking
+[1.811s] writing list of installed files to '/home/huahai/dobot_ws/build/hand_tracking/install.log'
+[1.839s] Invoked command in '/home/huahai/dobot_ws/src/hand_tracking' returned '0': PYTHONPATH=/home/huahai/dobot_ws/build/hand_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_tracking build --build-base /home/huahai/dobot_ws/build/hand_tracking/build install --record /home/huahai/dobot_ws/build/hand_tracking/install.log --single-version-externally-managed install_data

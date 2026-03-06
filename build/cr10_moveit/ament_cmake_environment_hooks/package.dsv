@@ -1,0 +1,4 @@
+source;share/cr10_moveit/local_setup.bash
+source;share/cr10_moveit/local_setup.dsv
+source;share/cr10_moveit/local_setup.sh
+source;share/cr10_moveit/local_setup.zsh

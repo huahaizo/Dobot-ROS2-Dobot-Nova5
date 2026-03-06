@@ -1,0 +1,1139 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libdobot_msgs_v3__rosidl_typesupport_cpp.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_compile_options",
+			"add_definitions",
+			"find_package",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cpp_generate_interfaces.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp_generate_interfaces.cmake",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 139,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 7,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"file" : 6,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"file" : 5,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 25,
+				"parent" : 20
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"define" : "ROSIDL_TYPESUPPORT_CPP_BUILDING_DLL"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "ROS_PACKAGE_NAME=\"dobot_msgs_v3\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_generator_cpp"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rcutils"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/std_msgs"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_cpp"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_c"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					22
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 12,
+			"id" : "dobot_msgs_v3__cpp::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "dobot_msgs_v3__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/huahai/dobot_ws/install/dobot_msgs_v3"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/humble/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/humble/lib/librosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/humble/lib/librosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/humble/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/opt/ros/humble/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "dobot_msgs_v3__rosidl_typesupport_cpp",
+	"nameOnDisk" : "libdobot_msgs_v3__rosidl_typesupport_cpp.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				84
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/msg/robot_status__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/msg/tool_vector_actual__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/acc_j__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/acc_l__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/ao__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/ao_execute__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/arc__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/arch__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/brake_control__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/circle__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/clear_error__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/continues__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/continue_script__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/cp__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/di__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/digital_outputs__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/disable_robot__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/do__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/do_execute__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/do_group__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/emergency_stop__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/enable_robot__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/get_angle__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/get_coils__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/get_error_id__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/get_hold_regs__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/get_in_bits__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/get_in_regs__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/get_pose__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/inverse_solution__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/joint_mov_j__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/jump__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/lim_z__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/load_switch__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/modbus_close__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/modbus_create__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/move_jog__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/mov_j__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/mov_j_ext__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/mov_jio__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/mov_l__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/mov_lio__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/pause__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/pause_script__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/pay_load__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/positive_solution__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/power_on__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/rel_joint_mov_j__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/rel_mov_j__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/rel_mov_j_user__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/rel_mov_j_tool__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/rel_mov_l__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/rel_mov_l_user__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/rel_mov_l_tool__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/reset_robot__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/robot_mode__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/run_script__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/servo_j__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/servo_p__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/set_arm_orientation__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/set_coils__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/set_collision_level__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/set_hold_regs__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/set_obstacle_avoid__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/set_payload__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/set_safe_skin__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/speed_factor__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/speed_j__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/speed_l__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/start_drag__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/start_fc_trace__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/start_path__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/start_trace__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/stop_drag__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/stopmove_jog__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/stop_script__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/sync__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/sync_all__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/tool__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/tool_di__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/tool_do__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/tool_do_execute__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/user__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/srv/wait__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huahai/dobot_ws/build/dobot_msgs_v3/rosidl_typesupport_cpp/dobot_msgs_v3/msg/robot_status__type_support.cpp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

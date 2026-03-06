@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/hand_tracking/hand_tracking.egg-info/PKG-INFO
+writing dependency_links to ../../build/hand_tracking/hand_tracking.egg-info/dependency_links.txt
+writing entry points to ../../build/hand_tracking/hand_tracking.egg-info/entry_points.txt
+writing requirements to ../../build/hand_tracking/hand_tracking.egg-info/requires.txt
+writing top-level names to ../../build/hand_tracking/hand_tracking.egg-info/top_level.txt
+reading manifest file '../../build/hand_tracking/hand_tracking.egg-info/SOURCES.txt'
+writing manifest file '../../build/hand_tracking/hand_tracking.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hand_tracking/hand_tracking_3d_node.py -> /home/huahai/dobot_ws/build/hand_tracking/build/lib/hand_tracking
+running install
+running install_lib
+copying /home/huahai/dobot_ws/build/hand_tracking/build/lib/hand_tracking/hand_tracking_3d_node.py -> /home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages/hand_tracking
+byte-compiling /home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages/hand_tracking/hand_tracking_3d_node.py to hand_tracking_3d_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages/hand_tracking-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/hand_tracking/hand_tracking.egg-info to /home/huahai/dobot_ws/install/hand_tracking/lib/python3.10/site-packages/hand_tracking-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hand_tracking_3d_node script to /home/huahai/dobot_ws/install/hand_tracking/lib/hand_tracking
+Installing hand_tracking_node script to /home/huahai/dobot_ws/install/hand_tracking/lib/hand_tracking
+Installing hand_tracking_robot_node script to /home/huahai/dobot_ws/install/hand_tracking/lib/hand_tracking
+Installing nova5_ik_node script to /home/huahai/dobot_ws/install/hand_tracking/lib/hand_tracking
+writing list of installed files to '/home/huahai/dobot_ws/build/hand_tracking/install.log'

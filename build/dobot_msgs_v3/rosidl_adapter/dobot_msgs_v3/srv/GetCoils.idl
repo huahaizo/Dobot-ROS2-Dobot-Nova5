@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/GetCoils.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct GetCoils_Request {
+      int32 index;
+
+      int32 addr;
+
+      int32 count;
+    };
+    struct GetCoils_Response {
+      int32 res;
+
+      string value;
+    };
+  };
+};

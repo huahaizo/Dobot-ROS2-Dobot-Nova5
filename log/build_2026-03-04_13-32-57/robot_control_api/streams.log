@@ -1,0 +1,26 @@
+[0.560s] Invoking command in '/home/huahai/dobot_ws/src/robot_control_api': CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:/home/huahai/dobot_ws/install/nova5_moveit:/home/huahai/dobot_ws/install/nova2_moveit:/home/huahai/dobot_ws/install/cr7_moveit:/home/huahai/dobot_ws/install/cr5_moveit:/home/huahai/dobot_ws/install/cr3_moveit:/home/huahai/dobot_ws/install/cr16_moveit:/home/huahai/dobot_ws/install/cr12_moveit:/home/huahai/dobot_ws/install/cr10_moveit:/home/huahai/dobot_ws/install/dobot_rviz:/home/huahai/dobot_ws/install/dobot_gazebo:/home/huahai/dobot_ws/install/cra_description PYTHONPATH=/home/huahai/dobot_ws/build/robot_control_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control_api build --build-base /home/huahai/dobot_ws/build/robot_control_api/build install --record /home/huahai/dobot_ws/build/robot_control_api/install.log --single-version-externally-managed install_data
+[0.754s] running egg_info
+[0.756s] writing ../../build/robot_control_api/robot_control_api.egg-info/PKG-INFO
+[0.757s] writing dependency_links to ../../build/robot_control_api/robot_control_api.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../build/robot_control_api/robot_control_api.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../build/robot_control_api/robot_control_api.egg-info/requires.txt
+[0.758s] writing top-level names to ../../build/robot_control_api/robot_control_api.egg-info/top_level.txt
+[0.761s] reading manifest file '../../build/robot_control_api/robot_control_api.egg-info/SOURCES.txt'
+[0.762s] writing manifest file '../../build/robot_control_api/robot_control_api.egg-info/SOURCES.txt'
+[0.762s] running build
+[0.762s] running build_py
+[0.762s] copying robot_control_api/examples/text.py -> /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples
+[0.763s] running install
+[0.763s] running install_lib
+[0.764s] copying /home/huahai/dobot_ws/build/robot_control_api/build/lib/robot_control_api/examples/text.py -> /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples
+[0.765s] byte-compiling /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api/examples/text.py to text.cpython-310.pyc
+[0.767s] running install_data
+[0.767s] running install_egg_info
+[0.770s] removing '/home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api-0.0.0-py3.10.egg-info' (and everything under it)
+[0.770s] Copying ../../build/robot_control_api/robot_control_api.egg-info to /home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages/robot_control_api-0.0.0-py3.10.egg-info
+[0.771s] running install_scripts
+[0.789s] Installing advanced_control script to /home/huahai/dobot_ws/install/robot_control_api/lib/robot_control_api
+[0.790s] Installing basic_control script to /home/huahai/dobot_ws/install/robot_control_api/lib/robot_control_api
+[0.790s] Installing text script to /home/huahai/dobot_ws/install/robot_control_api/lib/robot_control_api
+[0.791s] writing list of installed files to '/home/huahai/dobot_ws/build/robot_control_api/install.log'
+[0.809s] Invoked command in '/home/huahai/dobot_ws/src/robot_control_api' returned '0': CMAKE_PREFIX_PATH=/home/huahai/dobot_ws/install/dobot_msgs_v3:/home/huahai/dobot_ws/install/nova5_moveit:/home/huahai/dobot_ws/install/nova2_moveit:/home/huahai/dobot_ws/install/cr7_moveit:/home/huahai/dobot_ws/install/cr5_moveit:/home/huahai/dobot_ws/install/cr3_moveit:/home/huahai/dobot_ws/install/cr16_moveit:/home/huahai/dobot_ws/install/cr12_moveit:/home/huahai/dobot_ws/install/cr10_moveit:/home/huahai/dobot_ws/install/dobot_rviz:/home/huahai/dobot_ws/install/dobot_gazebo:/home/huahai/dobot_ws/install/cra_description PYTHONPATH=/home/huahai/dobot_ws/build/robot_control_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahai/dobot_ws/install/robot_control_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control_api build --build-base /home/huahai/dobot_ws/build/robot_control_api/build install --record /home/huahai/dobot_ws/build/robot_control_api/install.log --single-version-externally-managed install_data

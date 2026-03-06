@@ -1,0 +1,8 @@
+source;share/cr7_moveit/hook/cmake_prefix_path.ps1
+source;share/cr7_moveit/hook/cmake_prefix_path.dsv
+source;share/cr7_moveit/hook/cmake_prefix_path.sh
+source;share/cr7_moveit/local_setup.bash
+source;share/cr7_moveit/local_setup.dsv
+source;share/cr7_moveit/local_setup.ps1
+source;share/cr7_moveit/local_setup.sh
+source;share/cr7_moveit/local_setup.zsh

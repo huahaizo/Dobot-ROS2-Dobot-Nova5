@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/GetInRegs.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct GetInRegs_Request {
+      int32 index;
+
+      int32 addr;
+
+      int32 count;
+
+      sequence<string> val_type;
+    };
+    struct GetInRegs_Response {
+      int32 res;
+
+      string value;
+    };
+  };
+};

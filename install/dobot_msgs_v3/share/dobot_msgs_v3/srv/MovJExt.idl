@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_msgs_v3/srv/MovJExt.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_msgs_v3 {
+  module srv {
+    struct MovJExt_Request {
+      double offset;
+
+      sequence<string> param_value;
+    };
+    struct MovJExt_Response {
+      int32 res;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+source;share/nova2_moveit/environment/ament_prefix_path.sh
+source;share/nova2_moveit/environment/path.sh
