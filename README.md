@@ -57,7 +57,7 @@ dobot_ws/
 
 ## 1. hand_tracking 功能包
 
-**路径**: `/home/huahai/dobot_ws/src/hand_tracking`
+**路径**: `src/hand_tracking`
 
 ### 功能说明
 
@@ -132,7 +132,7 @@ ros2 run hand_tracking nova5_ik_node
 
 ## 2. qt_robot_control 功能包
 
-**路径**: `/home/huahai/dobot_ws/src/qt_robot_control`
+**路径**: `src/qt_robot_control`
 
 ### 功能说明
 
@@ -178,7 +178,7 @@ python3 qt_robot_control/robot_controller.py
 
 ## 3. robot_control_api 功能包
 
-**路径**: `/home/huahai/dobot_ws/src/robot_control_api`
+**路径**: `src/robot_control_api`
 
 ### 功能说明
 
@@ -329,8 +329,6 @@ sudo apt install ros-humble-moveit
 
 ## 6. 工作空间编译
 
-```bash
-cd /home/huahai/dobot_ws
 
 # 编译工作空间
 colcon build
@@ -359,7 +357,7 @@ source install/setup.bash
 ## 8. 常见问题
 
 ### Q: 节点无法启动
-- 检查是否已 source 环境: `source /home/huahai/dobot_ws/install/setup.bash`
+- 检查是否已 source 环境: `install/setup.bash`
 - 检查依赖是否安装完整
 
 ### Q: 无法连接机器人
@@ -378,11 +376,11 @@ source install/setup.bash
 
 | 功能包 | 路径 |
 |--------|------|
-| hand_tracking | `/home/huahai/dobot_ws/src/hand_tracking` |
-| qt_robot_control | `/home/huahai/dobot_ws/src/qt_robot_control` |
-| robot_control_api | `/home/huahai/dobot_ws/src/robot_control_api` |
-| dobot_bringup_v3 | `/home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3` |
-| nova5_moveit | `/home/huahai/dobot_ws/src/DOBOT_6Axis_ROS2_V3/nova5_moveit` |
+| hand_tracking | `src/hand_tracking` |
+| qt_robot_control | `src/qt_robot_control` |
+| robot_control_api | `src/robot_control_api` |
+| dobot_bringup_v3 | `src/DOBOT_6Axis_ROS2_V3/dobot_bringup_v3` |
+| nova5_moveit | `src/DOBOT_6Axis_ROS2_V3/nova5_moveit` |
 
 ---
 
@@ -431,7 +429,7 @@ ros2 run hand_tracking nova5_ik_node
      - 记录机器人坐标系下的坐标 `(x, y, z)`
 
 3. **修改点对配置**：
-   - 打开文件：`/home/huahai/dobot_ws/src/hand_tracking/hand_tracking/hand_tracking_3d_node.py`
+   - 打开文件：`src/hand_tracking/hand_tracking/hand_tracking_3d_node.py`
    - 找到 `point_pairs` 字典（大约第66-71行）
    - 替换为你的点对数据：
 
