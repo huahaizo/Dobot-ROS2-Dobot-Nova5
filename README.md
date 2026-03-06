@@ -10,7 +10,7 @@
 
 1. **系统要求**：
    - Ubuntu 22.04 LTS
-   - ROS2 Humble Hawksbill
+   - ROS2 Humble
 
 2. **网络配置**：
    - 有线连接：将电脑设置为与控制器（IP: 192.168.5.1）同一网段
